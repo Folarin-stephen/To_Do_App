@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .bodyFrameColor{
+            background-color: powderblue;
+            color: beige;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .center {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+    </style>
+</head>
+<body class = "bodyFrameColor" >
+    <h1>Welcome To Task Manager</h1>
+
+    <div class="center">
+        <h2>Login</h2><br>
+        <div>
+
+            <form action="/views/login" method="post">
+                <label for="email">Email:</label><br>
+                <input type="email" id="fname" name="email" placeholder="Input Email Here"><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="lname" name="password" placeholder="password Here"><br><br>
+                <input type="submit" value="Submit">
+                </form> 
+        </div>
+       
+    </div>
+</body>
+</html>
+

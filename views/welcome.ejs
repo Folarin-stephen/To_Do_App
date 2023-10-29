@@ -1,0 +1,25 @@
+<%- include("./partials/header") %>
+
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">Todo App</a>
+  </nav>
+
+  <div class="container mt-5">
+
+    <form action="/views/add/todo" method="POST" class="d-flex mx2 ">
+        <input type="text" name="Addtodo" id="todo" class="form-control" placeholder="Enter Task">
+        <input type="submit" value="Add Task" class="btn btn-md btn-primary mx-2" >
+    </form>
+
+
+    <ul class="list-group my-5" >
+        <li class="list-group-item">Cras justo odio</li>
+        <li class="list-group-item">Dapibus ac facilisis in</li>
+        <li class="list-group-item">Morbi leo risus</li>
+        <li class="list-group-item">Porta ac consectetur ac</li>
+        <li class="list-group-item">Vestibulum at eros</li>
+      </ul>
+
+
+<%- include("./partials/header") %>
+
